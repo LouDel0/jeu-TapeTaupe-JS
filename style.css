@@ -1,0 +1,22 @@
+#container {
+    cursor: url(iconFacettes.png), auto;
+    border: 2px solid teal;
+    margin: auto;
+    width: 50%;
+    height: 650px;
+    background-color: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.box {
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
